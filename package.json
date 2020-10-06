@@ -1,0 +1,70 @@
+{
+  "name": "next-typescript-tailwind-mdx-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "NODE_ENV=production next build",
+    "postbuild": "NODE_ENV=production next-sitemap",
+    "start": "next start",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@47ng/check-env": "^2.0.1",
+    "dotenv-flow": "^3.2.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "mdx-prism": "^0.3.1",
+    "next": "9.5.3",
+    "next-mdx-enhanced": "^4.0.0",
+    "next-seo": "^4.11.0",
+    "next-sitemap": "^1.2.4",
+    "prettier": "^2.1.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "reading-time": "^1.2.0",
+    "rehype": "^11.0.0",
+    "remark-code-titles": "^0.1.1",
+    "remark-footnotes": "^3.0.0",
+    "remark-slug": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@tailwindcss/typography": "^0.2.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@types/node": "^14.11.5",
+    "@types/react": "^16.9.51",
+    "babel-jest": "^26.5.2",
+    "jest": "^26.5.2",
+    "next-compose-plugins": "^2.2.0",
+    "postcss-nested": "^5.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "react-test-renderer": "^16.13.1",
+    "tailwindcss": "^1.8.11",
+    "typescript": "^4.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ],
+    "src/**/*.{ts,tsx,md,mdx,js}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": false,
+    "jsxBracketSameLine": false
+  }
+}
