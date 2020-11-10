@@ -22,7 +22,11 @@ You can start editing the page by modifying `src/pages/index.js`. The page auto-
 
 You can also add mdx files in `src/pages/` and they will be presented at the cooresponding route.
 
-Tailwind and
+Tailwind and Emotion are available for styling using utility classes and css-in-js respectively.
+
+Testing is facilitated through React Testing Library and Jest.
+
+`next-seo` and `next-sitemap` are doing their jobs very well. Be sure to update `/next-sitemap.js` and `/next-seo.js` with your information!
 
 ## Learn More
 
@@ -32,9 +36,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
