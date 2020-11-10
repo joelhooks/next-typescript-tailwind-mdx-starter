@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Host: https://example.com
-Sitemap: https://example.com/sitemap.xml
+Host: undefined
+Sitemap: undefined/sitemap.xml
