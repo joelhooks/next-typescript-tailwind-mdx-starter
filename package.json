@@ -10,8 +10,13 @@
     "test": "jest --watch"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.2.1",
+    "@emotion/core": "^10.1.1",
+    "@emotion/styled": "^10.0.27",
     "@next/mdx": "^10.0.1",
     "dotenv-flow": "^3.2.0",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
     "husky": "^4.3.0",
     "lint-staged": "^10.5.1",
     "mdx-prism": "^0.3.1",
@@ -31,7 +36,7 @@
     "@babel/plugin-transform-react-jsx": "^7.12.5",
     "@tailwindcss/typography": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.5",
-    "@testing-library/react": "^11.11.1",
+    "@testing-library/react": "^11.1.1",
     "@types/node": "^14.14.7",
     "@types/react": "^16.9.56",
     "babel-jest": "^26.6.3",

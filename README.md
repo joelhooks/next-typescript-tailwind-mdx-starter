@@ -1,18 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an opinonated Next.js starter project that makes it relatively simple to spin up a new project.
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
+If you'd like serverless function support:
+
+```bash
+vercel dev
+```
+
+I'm personally in the "just do Next.js the Vercel way because it gives me modern best practices without a lot of friction" but if you've got other preferences you probably know how to manage them anyway.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/pages/index.js`. The page auto-updates as you edit the file.
+
+You can also add mdx files in `src/pages/` and they will be presented at the cooresponding route.
+
+Tailwind and
 
 ## Learn More
 
