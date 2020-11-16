@@ -26,4 +26,4 @@ Tailwind and Emotion are available for styling using utility classes and css-in-
 
 Testing is facilitated through React Testing Library and Jest.
 
-`next-seo` and `next-sitemap` are doing their jobs very well. Be sure to update `/next-sitemap.js` and `/next-seo.js` with your information!
+`next-seo` and `next-sitemap` are doing their jobs very well. Be sure to update `/next-sitemap.js` and `/next-seo.json` with your information!

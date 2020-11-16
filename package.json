@@ -21,7 +21,7 @@
     "mdx-prism": "^0.3.1",
     "next": "10.0.1",
     "next-mdx-enhanced": "^4.0.0",
-    "next-seo": "^4.15.1",
+    "next-seo": "^4.17.0",
     "next-sitemap": "^1.2.26",
     "prettier": "^2.1.2",
     "react": "17.0.1",
@@ -32,8 +32,8 @@
     "remark-slug": "^6.0.0"
   },
   "devDependencies": {
-    "@emotion/babel-preset-css-prop": "^10.2.1",
     "@babel/plugin-transform-react-jsx": "^7.12.5",
+    "@emotion/babel-preset-css-prop": "^10.2.1",
     "@tailwindcss/typography": "^0.2.0",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
