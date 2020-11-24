@@ -2,6 +2,7 @@
   "title": "Next.js and MDX fueled",
   "titleTemplate": "%s | Joel",
   "description": "THis is my Next.js TypeScript Tailwind Site",
+  "favicon": "/favicon.ico",
   "additionalMetaTags": [
     {"property": "author", "content": "joel hooks"},
     {
