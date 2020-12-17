@@ -28,7 +28,7 @@
     "remark-slug": "^6.0.0"
   },
   "devDependencies": {
-    "@babel/plugin-transform-react-jsx": "^7.12.10",
+    "@babel/plugin-transform-react-jsx": "^7.12.11",
     "@emotion/babel-preset-css-prop": "^10.2.1",
     "@mdx-js/loader": "^1.6.22",
     "@tailwindcss/typography": "^0.3.1",
