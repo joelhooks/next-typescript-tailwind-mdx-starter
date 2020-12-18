@@ -23,7 +23,7 @@
     },
     "images": [
       {
-        "url": "/images/og.png",
+        "url": "./assets/images/og.png",
         "width": 1280,
         "height": 720
       }
