@@ -17,7 +17,7 @@ export default function Home() {
       text-green-700"
         css={{backgroundColor: 'black'}}
       >
-        Welcome to Your App
+        Mariah Lower
       </h1>
 
       <div
