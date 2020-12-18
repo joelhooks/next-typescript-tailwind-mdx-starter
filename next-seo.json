@@ -1,7 +1,7 @@
 {
   "title": "Personal Trainer",
   "titleTemplate": "%s | Mariah",
-  "description": "My personal site",
+  "description": "Health and fitness",
   "favicon": "/favicon.ico",
   "additionalMetaTags": [
     {"property": "author", "content": "mariah lower"},
