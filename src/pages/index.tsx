@@ -77,6 +77,7 @@ export default function Home() {
         col-span-full
         text-3xl
         text-green-700
+        footer
         "
         css={{backgroundColor: 'black'}}
       >

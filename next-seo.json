@@ -1,10 +1,10 @@
 {
-  "title": "Next.js and MDX fueled",
-  "titleTemplate": "%s | Joel",
-  "description": "THis is my Next.js TypeScript Tailwind Site",
+  "title": "Personal Trainer",
+  "titleTemplate": "%s | Mariah",
+  "description": "My personal site",
   "favicon": "/favicon.ico",
   "additionalMetaTags": [
-    {"property": "author", "content": "joel hooks"},
+    {"property": "author", "content": "mariah lower"},
     {
       "property": "keywords",
       "content": ""
@@ -12,18 +12,18 @@
   ],
   "twitter": {
     "cardType": "summary",
-    "handle": "jhooks",
-    "site": "jhooks"
+    "handle": "zacjones93",
+    "site": "zacjones93"
   },
   "openGraph": {
     "type": "website",
-    "site_name": "Joel's Site",
+    "site_name": "Mariah's Site",
     "profile": {
-      "firstName": "Joel"
+      "firstName": "Mariah"
     },
     "images": [
       {
-        "url": "/images/og.jpg",
+        "url": "/images/og.png",
         "width": 1280,
         "height": 720
       }
