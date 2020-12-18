@@ -23,7 +23,7 @@
     },
     "images": [
       {
-        "url": "./assets/images/og.png",
+        "url": "/favicon.ico",
         "width": 1280,
         "height": 720
       }
