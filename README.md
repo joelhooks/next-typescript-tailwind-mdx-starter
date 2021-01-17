@@ -1,3 +1,5 @@
+[![Depfu](https://badges.depfu.com/badges/0eb0914942401daa2b5b7022cfcba170/count.svg)](https://depfu.com/github/joelhooks/next-typescript-tailwind-mdx-starter?project_id=17632)
+
 This is an opinonated Next.js starter project that makes it relatively simple to spin up a new project.
 
 ## Getting Started
