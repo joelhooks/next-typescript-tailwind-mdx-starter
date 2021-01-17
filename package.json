@@ -12,7 +12,7 @@
   "dependencies": {
     "@emotion/core": "^10.1.1",
     "@emotion/styled": "^10.0.27",
-    "@next/mdx": "^10.0.4",
+    "@next/mdx": "^10.0.5",
     "dotenv-flow": "^3.2.0",
     "emotion": "^10.0.27",
     "emotion-server": "^10.0.27",
@@ -41,7 +41,7 @@
     "jest": "^26.6.3",
     "lint-staged": "^10.5.3",
     "next-compose-plugins": "^2.2.1",
-    "postcss": "^8.2.1",
+    "postcss": "^8.2.4",
     "postcss-nested": "^5.0.3",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
