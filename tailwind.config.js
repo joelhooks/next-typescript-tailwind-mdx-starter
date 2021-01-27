@@ -1,9 +1,20 @@
 module.exports = {
+  darkMode: 'class',
   purge: ['./src/**/*.tsx'],
   theme: {
     typography: (theme) => ({}),
-    extend: {},
+    extend: {
+      typography: (theme) => ({
+        dark: {
+          css: {
+            color: 'white',
+          },
+        },
+      }),
+    },
   },
-  variants: {},
+  variants: {
+    typography: ['dark'],
+  },
   plugins: [require('@tailwindcss/typography')],
 }
