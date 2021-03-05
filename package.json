@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.12.16",
-    "@emotion/babel-preset-css-prop": "^10.2.1",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
     "@mdx-js/loader": "^1.6.22",
     "@tailwindcss/typography": "^0.4.0",
     "@testing-library/jest-dom": "^5.11.9",
