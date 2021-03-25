@@ -1,4 +1,4 @@
-import {jsx} from '@emotion/core'
+import React from 'react'
 import Head from 'next/head'
 import DarkModeToggle from '../components/dark-mode-toggle'
 
